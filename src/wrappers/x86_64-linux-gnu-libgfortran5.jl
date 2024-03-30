@@ -5,6 +5,7 @@ using NetCDF_jll
 using NetCDFF_jll
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("IOAPI")
+JLLWrappers.@declare_library_product(libioapi, "libioapi.so")
 JLLWrappers.@declare_executable_product(airs2m3)
 JLLWrappers.@declare_executable_product(bcwndw)
 JLLWrappers.@declare_executable_product(camxtom3)
@@ -22,7 +23,6 @@ JLLWrappers.@declare_executable_product(juldiff)
 JLLWrappers.@declare_executable_product(julshift)
 JLLWrappers.@declare_executable_product(kfxtract)
 JLLWrappers.@declare_executable_product(latlon)
-JLLWrappers.@declare_library_product(libioapi, "libioapi.so")
 JLLWrappers.@declare_executable_product(m3agmask)
 JLLWrappers.@declare_executable_product(m3agmax)
 JLLWrappers.@declare_executable_product(m3combo)
@@ -64,6 +64,12 @@ JLLWrappers.@declare_executable_product(wrfgriddesc)
 JLLWrappers.@declare_executable_product(wrftom3)
 function __init__()
     JLLWrappers.@generate_init_header(NetCDF_jll, NetCDFF_jll, CompilerSupportLibraries_jll)
+    JLLWrappers.@init_library_product(
+        libioapi,
+        "lib/libioapi.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         airs2m3,
         "bin/airs2m3",
@@ -147,12 +153,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         latlon,
         "bin/latlon",
-    )
-
-    JLLWrappers.@init_library_product(
-        libioapi,
-        "lib/libioapi.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(

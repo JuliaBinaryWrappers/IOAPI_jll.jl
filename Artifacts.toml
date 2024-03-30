@@ -1,87 +1,96 @@
 [[IOAPI]]
 arch = "aarch64"
-git-tree-sha1 = "143228e4408607ac01b24532b0a117e2dd70cc16"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
+git-tree-sha1 = "9cb7a4c0f802fa0dfd62e4f858834ed7d225f11d"
+libgfortran_version = "5.0.0"
+os = "macos"
 
     [[IOAPI.download]]
-    sha256 = "f50fc0a9edd45f3daeceff045023abe41ba0effbb75e16218d26954b42ad2727"
-    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.0+1/IOAPI.v3.2.0.aarch64-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "5c495ee042f714418ccb2e4e25f9b293eb72d3dc16a3b754c0506c2fc5afd76d"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.aarch64-apple-darwin-libgfortran5.tar.gz"
 [[IOAPI]]
 arch = "aarch64"
-git-tree-sha1 = "0201a4cfbff5476a6b8db20cd9f8fd614c0962a5"
+git-tree-sha1 = "6504d4caf5d5e33d7b98a34311ed5f8bb6c81501"
 libc = "glibc"
-libgfortran_version = "4.0.0"
+libgfortran_version = "3.0.0"
 os = "linux"
 
     [[IOAPI.download]]
-    sha256 = "d737bf70bd3b69b7dca8e8005c05d9dc52d9058ebb5a75f9312fd8166db266a5"
-    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.0+1/IOAPI.v3.2.0.aarch64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "f8a2f15add600b49aa4dcf86212af3772c370041a5fbe9118829a66eb1e9fdd9"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.aarch64-linux-gnu-libgfortran3.tar.gz"
 [[IOAPI]]
 arch = "aarch64"
-git-tree-sha1 = "325588db5d70544defbda254d9c6933489fdbc00"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[IOAPI.download]]
-    sha256 = "b3d8dcbcfa94545f9093f1cc83a2a4078f31b5b19435c420f0c4294d848549e2"
-    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.0+1/IOAPI.v3.2.0.aarch64-linux-gnu-libgfortran5.tar.gz"
-[[IOAPI]]
-arch = "x86_64"
-git-tree-sha1 = "94fc624d52edb918ea1307bfc8003cb700cbbe0f"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[IOAPI.download]]
-    sha256 = "c2bf9d676918ae03968e0907db5d325ff3d047765026d2cd07a9eaaca4758fa5"
-    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.0+1/IOAPI.v3.2.0.x86_64-apple-darwin-libgfortran3.tar.gz"
-[[IOAPI]]
-arch = "x86_64"
-git-tree-sha1 = "447cda650237bcd6dc15f72e591637fb976422a3"
-libgfortran_version = "4.0.0"
-os = "macos"
-
-    [[IOAPI.download]]
-    sha256 = "91cc12d04ec978a6c3dc6550c0210072a6cf6c9b623ac235c8af3326317e6ec9"
-    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.0+1/IOAPI.v3.2.0.x86_64-apple-darwin-libgfortran4.tar.gz"
-[[IOAPI]]
-arch = "x86_64"
-git-tree-sha1 = "1eb135f1b698b562b4a148d136fa0a8e89d4a47d"
-libgfortran_version = "5.0.0"
-os = "macos"
-
-    [[IOAPI.download]]
-    sha256 = "2a9e9ae106016fdd722954e03f424a2c1897dc0862a243968542673da66a1d69"
-    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.0+1/IOAPI.v3.2.0.x86_64-apple-darwin-libgfortran5.tar.gz"
-[[IOAPI]]
-arch = "x86_64"
-git-tree-sha1 = "f4d726d35018f8ec5864f72dfadde9131dbf01b4"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[IOAPI.download]]
-    sha256 = "8a9010356fccb0728c1f3c3d7abd2c0876aa4296a683c877e3a011b92177cbeb"
-    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.0+1/IOAPI.v3.2.0.x86_64-linux-gnu-libgfortran3.tar.gz"
-[[IOAPI]]
-arch = "x86_64"
-git-tree-sha1 = "0961f661ade4c9e9aa2dd27caa3dfc68adcf9c34"
+git-tree-sha1 = "5e618c5ca047244bddedf610bb6f8eeeb0f05f88"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[IOAPI.download]]
-    sha256 = "7cef09d6e179bf47403a6d2e6b8cf74f031aaa965a299a43b3e563214dd6e1b6"
-    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.0+1/IOAPI.v3.2.0.x86_64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "1d92a6ddd688bffd0d2b3423bbbd4a8488654cd078008562bdb942f135ff4779"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.aarch64-linux-gnu-libgfortran4.tar.gz"
 [[IOAPI]]
-arch = "x86_64"
-git-tree-sha1 = "4d81af4daff3aa0e97bc1ffce9359f081a03aff6"
+arch = "aarch64"
+git-tree-sha1 = "d6465f40d55d1810979453a9d6b53231197f4506"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[IOAPI.download]]
-    sha256 = "7c3659e8e4d140bf4ecdb146a5b3d9b665f68a226b2a695fbc75feba1ef4077b"
-    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.0+1/IOAPI.v3.2.0.x86_64-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "0ebbd29b1ee2408953e2d526c623989e9748bf4bb4470d2f8b14d3d9f4e30864"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.aarch64-linux-gnu-libgfortran5.tar.gz"
+[[IOAPI]]
+arch = "x86_64"
+git-tree-sha1 = "b1513cdf4b77af3d1d30266c28df0d64d06cc329"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[IOAPI.download]]
+    sha256 = "6444f63e3aa35c3e3deaa3de036725c09af8fc1d2a7ce3a87a873b3624f60d34"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.x86_64-apple-darwin-libgfortran3.tar.gz"
+[[IOAPI]]
+arch = "x86_64"
+git-tree-sha1 = "8d492060ef1b399bbd5145e094d512abdd9118e4"
+libgfortran_version = "4.0.0"
+os = "macos"
+
+    [[IOAPI.download]]
+    sha256 = "dcc70ceb76c9d6cb1421d2669c6970e5d79f38f62eaf0698ce99444d63cdc34e"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.x86_64-apple-darwin-libgfortran4.tar.gz"
+[[IOAPI]]
+arch = "x86_64"
+git-tree-sha1 = "5b861116068f83adfbf84ba8c4e71714c32fff69"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[IOAPI.download]]
+    sha256 = "533f5f1ef0859f90600773ab40d80ccb0a3f873529935e3fc32c0de17bd4e4f4"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[IOAPI]]
+arch = "x86_64"
+git-tree-sha1 = "9cf6272ef68bdbefe5f499d3517824768b298dce"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[IOAPI.download]]
+    sha256 = "401a541273e162df372bb5077c70887bd7fea15759c2935a182d5bc0c00b85b3"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.x86_64-linux-gnu-libgfortran3.tar.gz"
+[[IOAPI]]
+arch = "x86_64"
+git-tree-sha1 = "41e2f2da3e73364df80553a9b6f86ea3c207d101"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[IOAPI.download]]
+    sha256 = "b7ef21d8a02ac78f9542633a1f1ae48bc0a5311f47b2d4ad3b551ce55678bdf8"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.x86_64-linux-gnu-libgfortran4.tar.gz"
+[[IOAPI]]
+arch = "x86_64"
+git-tree-sha1 = "d660a303ab349ebb05f919dfdbee2193cacde716"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[IOAPI.download]]
+    sha256 = "2de78bf3588741ce7084bcbfba6e64728741d3f0451dec2da8ca0eb4323cc3c1"
+    url = "https://github.com/JuliaBinaryWrappers/IOAPI_jll.jl/releases/download/IOAPI-v3.2.1+0/IOAPI.v3.2.1.x86_64-linux-gnu-libgfortran5.tar.gz"
